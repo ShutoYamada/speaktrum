@@ -19,6 +19,18 @@
     "titleBar.activeForeground": "#FFFFFF",
     "titleBar.inactiveBackground": "#E6E6FA",
     "titleBar.inactiveForeground": "#D8BFD899",
-    "commandCenter.border": "#FFD1DC99"
+    "commandCenter.border": "#FFD1DC99",
+     // エラーの色をJIS安全色の赤に
+     "errorForeground": "#ff4b00", // エラーメッセージ全体の色
+     "minimap.errorHighlight": "#ff4b00", //ミニマップにでるエラー箇所強調
+     "editorOverviewRuler.errorForeground": "#ff4b00",
+     "editorError.foreground": "#ff4b00", //エラー波線の色
+
+     // warningの波線の色をJIS安全色の黄赤に
+     "editorWarning.foreground": "#f6aa00",
+
+     // エラーレンズ拡張機能の色もJIS安全色に
+     "errorLens.errorForeground": "#ff4b00",
+     "errorLens.warningForeground": "#f6aa00"
   } 
 }
